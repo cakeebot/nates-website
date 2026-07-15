@@ -5,3 +5,11 @@
 :root{
     --inline-title-weight: 800 !important;
 }
+
+article p {
+  color: var(--text-normal) !important;
+}
+
+body .breadcrumb-container {
+    margin-bottom: 12;
+}

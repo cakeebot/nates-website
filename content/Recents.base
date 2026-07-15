@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - title
+      - file.mtime
+      - file.ctime
+      - tags
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: ASC
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: recent20
+    order:
+      - file.name
+      - title
+      - file.mtime
+      - file.ctime
+      - tags
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 20
