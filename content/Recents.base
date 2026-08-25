@@ -2,23 +2,25 @@ views:
   - type: table
     name: All
     order:
+      - file.mtime
       - file.name
       - title
-      - file.mtime
       - file.ctime
       - tags
       - file.folder
     sort:
       - property: file.mtime
-        direction: ASC
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
       - property: file.name
         direction: DESC
   - type: table
     name: recent20
     order:
+      - file.mtime
       - file.name
       - title
-      - file.mtime
       - file.ctime
       - tags
       - file.folder
