@@ -5,14 +5,14 @@ modified: 2026-08-25T22:54:20.597Z
 tags:
   - about
   - nate
+publish: true
 ---
 
 # Hi, I'm **Nate**
-
-- 20 years old
+- 21 years old
 - Student at Arizona State University, Tempe
-  - _Majors:_
-    - BS Sustainability
-    - BSP Urban Planning
-  - _Certificate:_
-    - Geographic Information Science
+	- *Majors:*
+		- BS Sustainability
+		- BSP Urban Planning
+	- *Certificate:*
+		- Geographic Information Science
