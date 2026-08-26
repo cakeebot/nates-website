@@ -1,5 +1,5 @@
 ---
-publish: true
+
 title: Home
 created: 2026-07-14T17:37:08.523Z
 modified: 2026-08-25T22:56:15.366Z

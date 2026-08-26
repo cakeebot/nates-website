@@ -10,7 +10,7 @@ creators:
 genres:
   - instrumental
   - classical
-release_date: 2026-02-06
+release_date:
 added_by: Nate
 aliases:
 type: music
@@ -29,20 +29,20 @@ I've only been able to find one other recording of this online—at the website 
 	- [This guide](https://www.lnwakey.com/tech-topics/digitize-vinyl-config) was helpful in setting up recording and doing basic audio repair
 - I then used [Wave Corrector](https://wavecor.co.uk/) to automagically remove noise and clicks from the recording because I did a terrible job cleaning the record (I couldn't find any microfiber cloths 💔) The program also automatically split the recording into tracks.
 	- Because Wave Corrector is a Windows program, I had to install the free trial of [CrossOver](https://www.codeweavers.com/crossover/). It's quite nice and I'll probably end up buying it to run other programs on my MacBook Pro.
-See below for the results of my first attempt at digitization along with the synopsis of each movement from the liner notes. There's still a good amount of noise— I may go back in the future and try cleaning it up more.
+See below to listen to the results of my first attempt at digitization along with the synopsis of each movement from the liner notes. There's still a good amount of noise— I may go back in the future and try cleaning it up more. You can download a .zip of the tracks here: %% TODO: replace with link to file hosted on cherry-pi %% https://drive.google.com/file/d/1a133FyuuVFWxF_fGwr_JjVpV_f1Uql1u/view?usp=sharing
 # Tracks
 #### 1. Valley of Ditches
 ![[VOTSS_1_Valley-Of-Ditches.wav]]
-In ancient days God told his people "make the valley full of ditches." The "Hohokam"—the early Indians of the Valley—followed this commandment. They irrigated and planted. Centuries later they left—perhaps flood and drought drove them away. Then came the Indians, Spanish, Mexicans and the Padres, Mormons from the north, and when the United States took over, covered wagons and the Butterfield stage brought white men in numbers. All of these people made the valley full of ditches. The desert bloomed and bore fruit.
+> In ancient days God told his people "make the valley full of ditches." The "Hohokam"—the early Indians of the Valley—followed this commandment. They irrigated and planted. Centuries later they left—perhaps flood and drought drove them away. Then came the Indians, Spanish, Mexicans and the Padres, Mormons from the north, and when the United States took over, covered wagons and the Butterfield stage brought white men in numbers. All of these people made the valley full of ditches. The desert bloomed and bore fruit.
 #### 2. The Dam Builders
 ![[VOTSS_2_The-Dam-Builders.wav]]
-When the rivers flooded, fields washed away. When the drought came, the ditches were dry. Crops and cattle thirsted and died. Valley farmers petitioned the nation for help in building dams to control floods and store water for the hot dry months. Congress heeded their plea and passed the Reclamation Act of 1902. This enabled the people of the Valley to build dams and other irrigation works. Using mule teams and primitive tools they quarried rock and built Roosevelt Dam on the Salt River. Flowing from its dedication by Theodore Roosevelt in 1911, other dams were built.
+> When the rivers flooded, fields washed away. When the drought came, the ditches were dry. Crops and cattle thirsted and died. Valley farmers petitioned the nation for help in building dams to control floods and store water for the hot dry months. Congress heeded their plea and passed the Reclamation Act of 1902. This enabled the people of the Valley to build dams and other irrigation works. Using mule teams and primitive tools they quarried rock and built Roosevelt Dam on the Salt River. Flowing from its dedication by Theodore Roosevelt in 1911, other dams were built.
 #### 3. Masque of the Yellow Moon
 ![[VOTSS_3_Masque-Of-The-Yellow-Moon.wav]]
-The dams controlled the floods and drought. They delivered water to the ditches in a year-round, even flow. The Valley of the Sun prospered as water, soil, and air were fused. New towns, homes, farms, schools, and churches sprang up. Phoenix, almost within the shadow of Camelback Mountain, became a gem of the desert. The people thanked God that they had made the valley full of ditches. They rejoiced with pageantry. Music and gay laughter filled the air. There was dancing in the streets of Phoenix. Everyone was happy.
+> The dams controlled the floods and drought. They delivered water to the ditches in a year-round, even flow. The Valley of the Sun prospered as water, soil, and air were fused. New towns, homes, farms, schools, and churches sprang up. Phoenix, almost within the shadow of Camelback Mountain, became a gem of the desert. The people thanked God that they had made the valley full of ditches. They rejoiced with pageantry. Music and gay laughter filled the air. There was dancing in the streets of Phoenix. Everyone was happy.
 #### 4. Reclamation's Golden Jubilee
 ![[VOTSS_4_Reclamations-Golden-Jubilee.wav]]
-Fifty years of prosperity under the Reclamation law had created another Garden of Eden which produced vegetables, fruits, and other foods for the nation. The green lush valley with its year-round summer attracted tourists by the thousands. Industry mushroomed. The need for electrical power skyrocketed. The Bureau of Reclamation built transmission lines over hundreds of miles of desert to bring power from Hoover, Davis, and Parker Dams. Generators hummed as millions of volts were transmitted throughout Arizona. The Valley of the Sun reverberated with the sound of fireworks that lighted up the sky in myriad colors as the people greeted the Golden Jubilee.
+> Fifty years of prosperity under the Reclamation law had created another Garden of Eden which produced vegetables, fruits, and other foods for the nation. The green lush valley with its year-round summer attracted tourists by the thousands. Industry mushroomed. The need for electrical power skyrocketed. The Bureau of Reclamation built transmission lines over hundreds of miles of desert to bring power from Hoover, Davis, and Parker Dams. Generators hummed as millions of volts were transmitted throughout Arizona. The Valley of the Sun reverberated with the sound of fireworks that lighted up the sky in myriad colors as the people greeted the Golden Jubilee.
 ## Record Sleeve Transcription:
 > **Composer:** Ferde Grofé
 > **Performed by:** Arizona State College (Tempe) Symphonic Orchestra
