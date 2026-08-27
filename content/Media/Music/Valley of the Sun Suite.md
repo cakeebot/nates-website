@@ -20,7 +20,7 @@ publish: true
 ![[Valley of the Sun Suite front.JPG|500]]
 # Notes
 > The story of the Salt River Project, the _Valley of the Sun Suite_, was composed by Ferde Grofe on request, the notes inform us, "of the U.S. Bureau of Reclamation and the Honorable Howard Pyle, former Governor of Arizona, for the celebration of Reclaimation's Golden Jubilee in 1952."  No recording date is given, so this could be the premiere performance or a later one.  At any rate, this LP is not a common item, and this certainly isn't one of Ferde's better-known works, though I regard it as a joy from start to finish.  From the mysterioso first movement to the joyous, Johann Strauss-esque (am I allowed to type that?) conclusion, this is mood music of the highest class.  Making things more interesting are Grofe's reuse of cues from his 1950 movie score for _Rocketship X-M_  (in _The Dam Builders_) and the insertion of a chord sequence from his very first work, _Broadway at Night_ (1924), at the beginning of the last movement.  Grofe was not shy about reusing material, and why not?  _X-M_ itself reuses a portion of his _Symphony in Steel_ (1935), and his score for _The Return of Jesse James_ (1950) uses the opening section of his _Tabloid Suite_ (for a telegraph office scene).
-> **-->** *[Source: Lee Hartsfield - Music You (Possibly) Won't Hear Anyplace Else](https://musicyouwont.blogspot.com/2020/01/valley-of-sun-suite-ferde-grofe-1952.html)*
+> **--> Source:** [Lee Hartsfield - Music You (Possibly) Won't Hear Anyplace Else](https://musicyouwont.blogspot.com/2020/01/valley-of-sun-suite-ferde-grofe-1952.html)*
 
 I honestly forgot where I got this record from; I think I found it at Zia records and snatched it so fast given its title and subject. After John Williams, Ferde Grofé is one of my favorite composers, not only due to this piece but also his aptitude for capturing the splendor of the West's natural beauty in compositions like the [Grand Canyon Suite](https://en.wikipedia.org/wiki/Grand_Canyon_Suite) and [Death Valley Suite](https://en.wikipedia.org/wiki/Death_Valley_Suite). As a bonus, this recording was performed by the Arizona State College symphonic orchestra in 1952—before the school was renamed to Arizona State University in 1958.
 
@@ -29,7 +29,10 @@ I've only been able to find one other recording of this online—at the website 
 	- [This guide](https://www.lnwakey.com/tech-topics/digitize-vinyl-config) was helpful in setting up recording and doing basic audio repair
 - I then used [Wave Corrector](https://wavecor.co.uk/) to automagically remove noise and clicks from the recording because I did a terrible job cleaning the record (I couldn't find any microfiber cloths 💔) The program also automatically split the recording into tracks.
 	- Because Wave Corrector is a Windows program, I had to install the free trial of [CrossOver](https://www.codeweavers.com/crossover/). It's quite nice and I'll probably end up buying it to run other programs on my MacBook Pro.
-See below to listen to the results of my first attempt at digitization along with the synopsis of each movement from the liner notes. There's still a good amount of noise— I may go back in the future and try cleaning it up more. You can download a .zip of the tracks here: %% TODO: replace with link to file hosted on cherry-pi %% https://drive.google.com/file/d/1a133FyuuVFWxF_fGwr_JjVpV_f1Uql1u/view?usp=sharing
+
+See below to listen to the results of my first attempt at digitization along with the synopsis of each movement from the liner notes. There's still a good amount of noise— I may go back in the future and try cleaning it up more. 
+
+You can download a .zip of the tracks here: %% TODO: replace with link to file hosted on cherry-pi %% https://drive.google.com/file/d/1a133FyuuVFWxF_fGwr_JjVpV_f1Uql1u/view?usp=sharing
 # Tracks
 #### 1. Valley of Ditches
 ![[VOTSS_1_Valley-Of-Ditches.wav]]

@@ -8,8 +8,19 @@
 
 article p {
   color: var(--text-normal) !important;
+  font-family: var(--bodyFont) !important;
 }
 
+// Add space between breadcrumbs and properties
 body .breadcrumb-container {
     margin-bottom: 12;
+}
+// Add space between properties and the edited date
+body .metadata-container {
+    margin-bottom: var(--size-4-2)
+}
+
+body blockquote {
+    padding-left: var(--size-4-2);
+    padding-right: var(--size-4-2);
 }
