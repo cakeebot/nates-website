@@ -4,19 +4,19 @@
   font-family: "Cascadia Code";
   font-style: normal;
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.11/fonts/primary/cascadia-code.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.12/fonts/primary/cascadia-code.woff2") format("woff2");
 }
 @font-face {
   font-family: "Inter";
   font-style: normal;
   font-weight: 100 900;
-  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.11/fonts/primary/inter.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.12/fonts/primary/inter.woff2") format("woff2");
 }
 @font-face {
   font-family: "Inter";
   font-style: italic;
   font-weight: 100 900;
-  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.11/fonts/primary/inter-1.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/saberzero1/quartz-themes@v4.0.12/fonts/primary/inter-1.woff2") format("woff2");
 }
 
 .callout {
@@ -599,6 +599,14 @@ body .page article li.task-list-item[data-task="X"] {
   --editor-header-icon: var(--icon-s);
   --editor-pane-margin: 10px;
   --editor-tab-icon: var(--icon-s);
+  --embed-action-color: var(--text-normal);
+  --embed-action-radius: var(--clickable-icon-radius);
+  --embed-actions-background: color-mix(var(--background-primary) 80%, transparent);
+  --embed-actions-blur: var(--blur-s);
+  --embed-actions-corner-shape: var(--corner-shape);
+  --embed-actions-padding: var(--size-2-1);
+  --embed-actions-radius: calc(var(--embed-action-radius) + var(--embed-actions-padding));
+  --embed-actions-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 0 6px 0 rgba(0, 0, 0, 0.05);
   --embed-background: var(--embed-bg-color-mix);
   --embed-bg-color-mix: color-mix( in srgb, var(--background-primary-alt) 50%, var(--editor-bg-color) );
   --embed-block-shadow-hover: none;
@@ -866,6 +874,7 @@ body .page article li.task-list-item[data-task="X"] {
   --icon-xs: 13px;
   --icon-xs-stroke-width: 2px;
   --idea-chbx-color: hsla(30, 72%, 62%, 1);
+  --image-radius: 4px;
   --important-chbx-color: hsla(17, 83%, 47%);
   --important-chbx-icon-color: white;
   --important-chbx-radius: 100%;
@@ -1417,15 +1426,22 @@ body .page article li.task-list-item[data-task="X"] {
   --size-4-9: 36px;
   --slider-s-thumb-position: -5px;
   --slider-s-thumb-size: 15px;
+  --slider-thumb-background: white;
+  --slider-thumb-background-hover: white;
   --slider-thumb-bg: var(--color-d-gray-20);
   --slider-thumb-border-color: var(--background-modifier-border-hover);
   --slider-thumb-border-width: 0px;
   --slider-thumb-height: 18px;
+  --slider-thumb-height-active: var(--slider-thumb-height);
   --slider-thumb-radius: var(--slider-thumb-height);
   --slider-thumb-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35),inset 0pc 1px 0px 1px rgba(255, 255, 255, 0.3),inset 0px -1px 0px 1px rgba(0, 0, 0, 0.29),0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  --slider-thumb-shadow-active: var(--slider-thumb-shadow);
+  --slider-thumb-shadow-focus: var(--slider-thumb-shadow-active), 0 0px 0px 2px var(--background-modifier-border-focus);
   --slider-thumb-shadow-hover: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35),inset 0pc 1px 0px 1px rgba(255, 255, 255, 0.3),inset 0px -1px 0px 1px rgba(0, 0, 0, 0.29),0px 1px 2px 0px rgba(0, 0, 0, 0.5),0px 0px 0px 6px rgba(255, 255, 255, 0.08);
   --slider-thumb-width: 18px;
+  --slider-thumb-width-active: var(--slider-thumb-width);
   --slider-thumb-y: -6px;
+  --slider-thumb-y-active: var(--slider-thumb-y);
   --slider-track-background: var(--color-d-gray-120);
   --slider-track-height: 5px;
   --slider-track-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2),0px 0px 0px 1px rgba(255, 255, 255, 0.04);
@@ -1617,6 +1633,7 @@ body .page article li.task-list-item[data-task="X"] {
   --toggle-shadow-hover: inset 0 6px 20px rgba(0, 0, 0, 0.28),inset 0px 0px 0px 1px rgba(255, 255, 255, 0.09),inset 0 0 1px rgba(0, 0, 0, 0.44);
   --toggle-thumb-color: var(--color-d-gray-10);
   --toggle-thumb-height: 18px;
+  --toggle-thumb-opacity-active: 1;
   --toggle-thumb-radius: 18px;
   --toggle-thumb-shadow: inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5),inset 0px 0px 0px 1px rgba(0, 0, 0, 0.25),0 2px 2px rgba(0, 0, 0, 0.35);
   --toggle-thumb-width: 18px;
@@ -6791,6 +6808,14 @@ html[saved-theme="dark"] body ul.tags > li {
   --editor-header-icon: var(--icon-s);
   --editor-pane-margin: 10px;
   --editor-tab-icon: var(--icon-s);
+  --embed-action-color: var(--text-normal);
+  --embed-action-radius: var(--clickable-icon-radius);
+  --embed-actions-background: color-mix(var(--background-primary) 80%, transparent);
+  --embed-actions-blur: var(--blur-s);
+  --embed-actions-corner-shape: var(--corner-shape);
+  --embed-actions-padding: var(--size-2-1);
+  --embed-actions-radius: calc(var(--embed-action-radius) + var(--embed-actions-padding));
+  --embed-actions-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 0 6px 0 rgba(0, 0, 0, 0.05);
   --embed-background: var(--embed-bg-color-mix);
   --embed-bg-color-mix: color-mix( in srgb, var(--background-primary-alt) 50%, var(--editor-bg-color) );
   --embed-block-shadow-hover: none;
@@ -7058,6 +7083,7 @@ html[saved-theme="dark"] body ul.tags > li {
   --icon-xs: 13px;
   --icon-xs-stroke-width: 2px;
   --idea-chbx-color: hsla(30, 72%, 62%, 1);
+  --image-radius: 4px;
   --important-chbx-color: hsla(17, 83%, 52%, 1);
   --important-chbx-icon-color: white;
   --important-chbx-radius: 100%;
@@ -7611,15 +7637,22 @@ html[saved-theme="dark"] body ul.tags > li {
   --size-4-9: 36px;
   --slider-s-thumb-position: -5px;
   --slider-s-thumb-size: 15px;
+  --slider-thumb-background: white;
+  --slider-thumb-background-hover: white;
   --slider-thumb-bg: var(--color-l-gray-10);
   --slider-thumb-border-color: var(--background-modifier-border-hover);
   --slider-thumb-border-width: 0px;
   --slider-thumb-height: 18px;
+  --slider-thumb-height-active: var(--slider-thumb-height);
   --slider-thumb-radius: var(--slider-thumb-height);
   --slider-thumb-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),inset 0pc 1px 0px 1px rgba(255, 255, 255, 1),inset 0px -1px 0px 1px rgba(0, 0, 0, 0.09),0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  --slider-thumb-shadow-active: var(--slider-thumb-shadow);
+  --slider-thumb-shadow-focus: var(--slider-thumb-shadow-active), 0 0px 0px 2px var(--background-modifier-border-focus);
   --slider-thumb-shadow-hover: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),inset 0pc 1px 0px 1px rgba(255, 255, 255, 1),inset 0px -1px 0px 1px rgba(0, 0, 0, 0.09),0px 1px 2px 0px rgba(0, 0, 0, 0.1),0px 0px 0px 6px rgba(0, 0, 0, 0.05);
   --slider-thumb-width: 18px;
+  --slider-thumb-width-active: var(--slider-thumb-width);
   --slider-thumb-y: -6px;
+  --slider-thumb-y-active: var(--slider-thumb-y);
   --slider-track-background: var(--color-l-gray-60);
   --slider-track-height: 5px;
   --slider-track-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08),0px 0px 0px 1px rgba(255, 255, 255, 0.08);
@@ -7811,6 +7844,7 @@ html[saved-theme="dark"] body ul.tags > li {
   --toggle-shadow-hover: inset 0 6px 20px rgba(0, 0, 0, 0.18),inset 0px 0px 0px 1px rgba(0, 0, 0, 0.06),inset 0 0 1px rgba(0, 0, 0, 0.32);
   --toggle-thumb-color: var(--color-l-gray-10);
   --toggle-thumb-height: 18px;
+  --toggle-thumb-opacity-active: 1;
   --toggle-thumb-radius: 18px;
   --toggle-thumb-shadow: inset 0px 1px 0px 1px rgba(255, 255, 255, 1),inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),0 2px 2px rgba(0, 0, 0, 0.2);
   --toggle-thumb-width: 18px;
